@@ -1,6 +1,6 @@
 NAME = philo
 CC = clang
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -pthread
 LIBFT_DIR = ./libft
 LIBFT_A = $(LIBFT_DIR)/libft.a
 INCLUDES = -I. -I$(LIBFT_DIR)
